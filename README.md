@@ -1,41 +1,28 @@
-# CodeIgniter 4 Application Starter
-Sistem Informasi Perpustakaan Berbasis Web
+# Sistem Informasi Perpustakaan Berbasis Web
 Repositori ini berisi source code untuk Sistem Informasi Manajemen Perpustakaan yang dikembangkan menggunakan CodeIgniter 4. Proyek ini dirancang untuk membantu perpustakaan dalam mengelola data buku, anggota, dan transaksi peminjaman/pengembalian secara efisien.
-
 Fitur Utama
-Manajemen Buku: Tambah, edit, hapus, dan pencarian data buku.
-Manajemen Anggota: Registrasi, autentikasi, dan pengelolaan data anggota.
-Peminjaman dan Pengembalian: Pencatatan serta pelacakan transaksi.
-Notifikasi OTP: Proses verifikasi saat pendaftaran anggota.
-User-friendly Interface: Tampilan antarmuka yang mudah digunakan.
+* Manajemen Buku: Tambah, edit, hapus, dan pencarian data buku.
+* Manajemen Anggota: Registrasi, autentikasi, dan pengelolaan data anggota.
+* Peminjaman dan Pengembalian: Pencatatan serta pelacakan transaksi.
+* Notifikasi OTP: Proses verifikasi saat pendaftaran anggota.
+* User-friendly Interface: Tampilan antarmuka yang mudah digunakan.
 Teknologi yang Digunakan
-Framework: CodeIgniter 4
-Database: MySQL
-Frontend: Bootstrap (atau framework pilihan lainnya)
-Environment: PHP 8+
+* Framework: CodeIgniter 4
+* Database: MySQL
+* Frontend: Bootstrap (atau framework pilihan lainnya)
+* Environment: PHP 8+
 Panduan Instalasi
-Clone repositori:
+1. Clone repositori: git clone https://github.com/username/repository.git
+2. 
+3. Install dependencies: Pastikan Composer terpasang di sistem Anda, lalu jalankan: composer install
+4. 
+5. Konfigurasi Database:
+    * Ubah file .env sesuai dengan konfigurasi database Anda.
+    * Jalankan migrasi database: php spark migrate
+    * 
+6. Menjalankan Server Lokal: Jalankan perintah berikut untuk memulai server pengembangan: php spark serve
+7.  Akses aplikasi melalui browser di http://localhost:8080.
+Catatan
+Proyek ini merupakan sistem manajemen perpustakaan yang dapat diintegrasikan ke lingkungan kerja nyata maupun digunakan sebagai pembelajaran. Jika Anda memiliki saran atau menemukan bug, silakan kirimkan issue atau pull request ke repositori ini.
 
-bash
-Salin kode
-git clone https://github.com/username/repository.git
-Install dependencies:
-Pastikan Composer terpasang di sistem Anda, lalu jalankan:
-
-bash
-Salin kode
-composer install
-Konfigurasi Database:
-
-Ubah file .env sesuai dengan konfigurasi database Anda.
-Jalankan migrasi database:
-bash
-Salin kode
-php spark migrate
-Menjalankan Server Lokal:
-Jalankan perintah berikut untuk memulai server pengembangan:
-
-bash
-Salin kode
-php spark serve
-Akses aplikasi melalui browser di http://localhost:8080.
+Semoga ini membantu! Anda bisa menyesuaikan nama pengguna GitHub dan URL repositori sesuai kebutuhan Anda. 😊
