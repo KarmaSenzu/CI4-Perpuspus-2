@@ -13,7 +13,8 @@ Teknologi yang Digunakan
 * Environment: PHP 8+
 Panduan Instalasi
 1. **Clone repositori**:
-    ```bash git clone https://github.com/username/repository.git
+    ```
+    bash git clone https://github.com/username/repository.git
     ```
 2. **Install dependencies**: Pastikan Composer terpasang di sistem Anda, lalu jalankan: 
    ```bash
